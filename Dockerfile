@@ -27,4 +27,4 @@ RUN set -ex && \
 
 COPY vimrc /root/.vimrc
 
-CMD bundle exec puma -C config/puma.rb
+CMD bundle exec jets server --host 0.0.0.0
