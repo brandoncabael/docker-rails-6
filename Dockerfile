@@ -21,8 +21,6 @@ RUN set -eux; \
     git \
     gnupg2 \
     graphviz \
-    libvips \
-    libvips-dev \
     libpq-dev \
     vim \
   ; \
