@@ -22,6 +22,7 @@ RUN set -eux; \
     gnupg2 \
     graphviz \
     libpq-dev \
+    shared-mime-info \
     vim \
   ; \
   gem install bundler;
